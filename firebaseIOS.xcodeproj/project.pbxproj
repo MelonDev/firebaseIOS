@@ -10,6 +10,7 @@
 		15F48DC3179470E37BD53F36 /* Pods_firebaseIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4FCF34F55F56095A2AFDEC /* Pods_firebaseIOSUITests.framework */; };
 		3A5DA694C008A058E8F02A0E /* Pods_firebaseIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1215417C30CC8E6B995678ED /* Pods_firebaseIOS.framework */; };
 		8AC83AC3384D6E327AD3CCE3 /* Pods_firebaseIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEFD91E00BC1CE07993A802 /* Pods_firebaseIOSTests.framework */; };
+		D8C4340921B326E3005B5037 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8C4340821B326E3005B5037 /* GoogleService-Info.plist */; };
 		F8348BF621256F89001618F5 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8348BF521256F89001618F5 /* DetailTableViewController.swift */; };
 		F8348BF821257A12001618F5 /* UT.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8348BF721257A12001618F5 /* UT.swift */; };
 		F85AF19B2117FB11003AC88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85AF19A2117FB11003AC88E /* AppDelegate.swift */; };
@@ -20,7 +21,6 @@
 		F85AF1B02117FB12003AC88E /* firebaseIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85AF1AF2117FB12003AC88E /* firebaseIOSTests.swift */; };
 		F85AF1BB2117FB12003AC88E /* firebaseIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85AF1BA2117FB12003AC88E /* firebaseIOSUITests.swift */; };
 		F85AF1CB21180055003AC88E /* FarmerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85AF1CA21180055003AC88E /* FarmerTableViewController.swift */; };
-		F85AF1CD211808AC003AC88E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F85AF1CC211808AC003AC88E /* GoogleService-Info.plist */; };
 		F8D4346B211A2120004DD200 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4346A211A2120004DD200 /* SplitViewController.swift */; };
 		F8D43471211A2C76004DD200 /* Farmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D43470211A2C76004DD200 /* Farmer.swift */; };
 		F8D43473211A2FD4004DD200 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D43472211A2FD4004DD200 /* DetailViewController.swift */; };
@@ -53,6 +53,7 @@
 		5AEFD91E00BC1CE07993A802 /* Pods_firebaseIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92164E41BAC0860D54EA334D /* Pods-firebaseIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseIOS/Pods-firebaseIOS.release.xcconfig"; sourceTree = "<group>"; };
 		BE4FCF34F55F56095A2AFDEC /* Pods_firebaseIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C4340821B326E3005B5037 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E65C318BA590085D7057808C /* Pods-firebaseIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseIOSTests/Pods-firebaseIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8348BF521256F89001618F5 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		F8348BF721257A12001618F5 /* UT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UT.swift; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		F85AF1BA2117FB12003AC88E /* firebaseIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebaseIOSUITests.swift; sourceTree = "<group>"; };
 		F85AF1BC2117FB12003AC88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85AF1CA21180055003AC88E /* FarmerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerTableViewController.swift; sourceTree = "<group>"; };
-		F85AF1CC211808AC003AC88E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F8D4346A211A2120004DD200 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 		F8D43470211A2C76004DD200 /* Farmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farmer.swift; sourceTree = "<group>"; };
 		F8D43472211A2FD4004DD200 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		F85AF1992117FB11003AC88E /* firebaseIOS */ = {
 			isa = PBXGroup;
 			children = (
-				F85AF1CC211808AC003AC88E /* GoogleService-Info.plist */,
+				D8C4340821B326E3005B5037 /* GoogleService-Info.plist */,
 				F85AF19A2117FB11003AC88E /* AppDelegate.swift */,
 				F85AF19C2117FB11003AC88E /* ViewController.swift */,
 				F85AF19E2117FB11003AC88E /* Main.storyboard */,
@@ -301,7 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F85AF1A52117FB12003AC88E /* LaunchScreen.storyboard in Resources */,
-				F85AF1CD211808AC003AC88E /* GoogleService-Info.plist in Resources */,
+				D8C4340921B326E3005B5037 /* GoogleService-Info.plist in Resources */,
 				F85AF1A22117FB12003AC88E /* Assets.xcassets in Resources */,
 				F85AF1A02117FB11003AC88E /* Main.storyboard in Resources */,
 			);
