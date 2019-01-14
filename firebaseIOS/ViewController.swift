@@ -27,7 +27,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "รายชื่อฟาร์ม"
+        //self.title = "รายชื่อฟาร์ม"
         
         let ref = Database.database().reference().child("ข้อมูล")
         ref.observe(.value, with: {(snapshot) in

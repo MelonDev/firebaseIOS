@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1543104221E90BBC0071A6B2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1543104121E90BBC0071A6B2 /* AddViewController.swift */; };
 		15F48DC3179470E37BD53F36 /* Pods_firebaseIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4FCF34F55F56095A2AFDEC /* Pods_firebaseIOSUITests.framework */; };
 		3A5DA694C008A058E8F02A0E /* Pods_firebaseIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1215417C30CC8E6B995678ED /* Pods_firebaseIOS.framework */; };
 		8AC83AC3384D6E327AD3CCE3 /* Pods_firebaseIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEFD91E00BC1CE07993A802 /* Pods_firebaseIOSTests.framework */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		0821F4D006251EB8DB8541D0 /* Pods-firebaseIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseIOSTests/Pods-firebaseIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1215417C30CC8E6B995678ED /* Pods_firebaseIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1543104121E90BBC0071A6B2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		1FC6AF172DD6BDFD829D1934 /* Pods-firebaseIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseIOS/Pods-firebaseIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3A32666CDE5F2DC22D67F3C1 /* Pods-firebaseIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseIOSUITests/Pods-firebaseIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5AEFD91E00BC1CE07993A802 /* Pods_firebaseIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +172,7 @@
 				F8D43476211A6048004DD200 /* DetailFarmer.swift */,
 				F8348BF521256F89001618F5 /* DetailTableViewController.swift */,
 				F8348BF721257A12001618F5 /* UT.swift */,
+				1543104121E90BBC0071A6B2 /* AddViewController.swift */,
 			);
 			path = firebaseIOS;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				F85AF19D2117FB11003AC88E /* ViewController.swift in Sources */,
 				F85AF1CB21180055003AC88E /* FarmerTableViewController.swift in Sources */,
 				F8D43471211A2C76004DD200 /* Farmer.swift in Sources */,
+				1543104221E90BBC0071A6B2 /* AddViewController.swift in Sources */,
 				F8348BF621256F89001618F5 /* DetailTableViewController.swift in Sources */,
 				F8D43473211A2FD4004DD200 /* DetailViewController.swift in Sources */,
 				F8D43475211A5C89004DD200 /* FarmerTableViewCell.swift in Sources */,
@@ -601,6 +605,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S665H3XLSU;
 				INFOPLIST_FILE = firebaseIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -620,6 +625,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S665H3XLSU;
 				INFOPLIST_FILE = firebaseIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

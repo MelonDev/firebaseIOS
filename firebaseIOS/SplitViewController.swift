@@ -8,10 +8,12 @@
 
 import UIKit
 
-class SplitViewController: UISplitViewController {
+class SplitViewController: UISplitViewController,UISplitViewControllerDelegate {
 
     override func viewDidLoad() {
+        self.delegate = self
         super.viewDidLoad()
+        
 
         preferredDisplayMode = .allVisible
         // Do any additional setup after loading the view.
@@ -20,6 +22,14 @@ class SplitViewController: UISplitViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func splitViewController(
+        _ splitViewController: UISplitViewController,
+        collapseSecondary secondaryViewController: UIViewController,
+        onto primaryViewController: UIViewController) -> Bool {
+        // Return true to prevent UIKit from applying its default behavior
+        return true
     }
     
 

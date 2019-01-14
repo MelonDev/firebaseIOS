@@ -237,16 +237,21 @@ class DetailViewController: UIViewController,UITableViewDataSource,UITableViewDe
     var farmer = Farmer(name: "",key :""){
         didSet {
             // Update the view.
-            print(farmer.name)
+            //print(farmer.name)
             configureView()
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //self.navigationController?.navigationItem.largeTitleDisplayMode = .never
 
         //self.navigationController?.navigationBar.prefersLargeTitles = false
-        self.navigationItem.largeTitleDisplayMode = .never
+        //self.navigationItem.largeTitleDisplayMode = .never
+        
+        
+        
         resetData()
         
         // Do any additional setup after loading the view.
@@ -258,8 +263,28 @@ class DetailViewController: UIViewController,UITableViewDataSource,UITableViewDe
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        //self.navigationItem.largeTitleDisplayMode = .always
+        //self.navigationController?.navigationItem.largeTitleDisplayMode = .always
+        //self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.navigationItem.largeTitleDisplayMode = .never
+
+
+        //self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "กลับ", style: .plain, target: nil, action: nil)
+    }
+    
     
    
+    override func viewWillDisappear(_ animated: Bool) {
+        
+        super.viewWillDisappear(animated)
+        
+        //self.navigationController?.navigationBar.prefersLargeTitles = true
+        //self.navigationController?.navigationItem.largeTitleDisplayMode = .always
+        //self.navigationItem.largeTitleDisplayMode = .always
+
+    }
  
     
 
